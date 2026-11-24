@@ -1,0 +1,18 @@
+:host{
+    display: grid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.card{
+    background-color: rgb(150, 87, 208);
+    color: rgb(255, 244, 225);
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+  :host{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

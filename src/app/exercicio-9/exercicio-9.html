@@ -1,0 +1,9 @@
+<br/>
+<input [(ngModel)]="nome" placeholder="Digite um nome: ">
+<button (click)="adicionar()">adicionar nome</button>
+
+@for (nome of nomes; track nome) {
+    <p>{{ nome }}</p>
+} @empty {
+    <p>Lista Vazia</p>
+}

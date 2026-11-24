@@ -1,0 +1,21 @@
+:host{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: block;
+    color: rgb(183, 143, 220);
+    background-color: rgb(236, 215, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+h1{
+    background-color: rgb(150, 87, 208);
+    color:rgb(255, 244, 225);
+}
